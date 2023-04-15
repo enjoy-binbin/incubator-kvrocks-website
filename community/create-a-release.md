@@ -24,7 +24,7 @@ This section is a brief from the [Cryptography with OpenPGP](https://infra.apach
 
 :::note
 
-This section is the requirements for release manager who is the first time to be a release manager
+This section is the requirements for release manager who is the first time to be a release manager.
 
 :::
 
@@ -236,11 +236,9 @@ Hello Apache Kvrocks(incubating) PMC and Community,
 
     https://dist.apache.org/repos/dist/dev/incubator/kvrocks/${release_version}/
 
-
     Keys to verify the release candidate:
 
     https://downloads.apache.org/incubator/kvrocks/KEYS
-
 
     Git tag for the release:
 
@@ -258,7 +256,7 @@ Hello Apache Kvrocks(incubating) PMC and Community,
     [ ] +0 no opinion
     [ ] -1 disapprove with the reason
 
-    To learn more about apache kvrocks, please see
+    To learn more about apache kvrocks, please see:
     https://kvrocks.apache.org/
 
     Checklist for reference:
@@ -274,7 +272,7 @@ Hello Apache Kvrocks(incubating) PMC and Community,
       [ ] Docker image contains license files
       [ ] Docker image can work well
 
-      More detailed checklist  please refer to:
+      More detailed checklist please refer to:
       https://kvrocks.apache.org/community/verify-a-release-candidate
 
 Thanks
@@ -418,7 +416,7 @@ Update [releases data file](https://github.com/apache/incubator-kvrocks-website/
 
 Send the release announcement to `dev@kvrocks.apache.org` and CC `announce@apache.org`:
 
-```html
+```text
 [ANNOUNCE] Release Apache Kvrocks(incubating) ${release_version}
 
 Hi all,

@@ -138,7 +138,8 @@ else
     printf $YELLOW"Failed to verify the checksum"$ENDCOLOR"\n"
 fi
 ```
-2. verify the sign and checksum
+
+2. Verify the sign and checksum
 
 ```shell
 ./release-verify.sh apache-kvrocks-${release_version}-src.tar.gz
